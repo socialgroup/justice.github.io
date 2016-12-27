@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>artistic work</title>
+<!-- TemplateEndEditable -->
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript" src="../js/timothy.js"></script>
+<script type="text/javascript" src="../js/slider.js"> </script>
+<script type="text/javascript"> // This is the script for the banner slider 
+$(document).ready(function() { $('#slider').s3slider({
+timeout: 6000});
+});
+ </script>
+<link href="../css/styles.css" rel="stylesheet" type="text/css" media= "screen"/>
+<link href="../css/styles.css" rel="stylesheet" type="text/css" media= "print"/>
+<link href="../css/slider.css" rel="stylesheet" type="text/css" media="screen"/>
+<meta http-equiv="content-Type" content="text/html"; charset=utf-8" />
+<meta http-equiv="content-Type" content="cache" />
+<meta name="robots" content= "INDEX, FOLLOW" />
+<meta name="keywords" content= "Enter Keywords" />
+<meta name="description" content= "Description Here" />
+<!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+</head>
+<body>
+<div id="outer">
+<div id="wrapper">
+      <div id="logo">
+      <img src="../images/logo.jpg" width=225 height=108/>
+      </div>
+      <div id="social-media">
+           <p>For an additional information <br/>Please call 51875269           </p>
+           <ul>
+               <li><a href="https://www.facebook.com"> <img src="../images/faicon.png" width=30 height=60/>               </a></li>
+               <li><a href="https://www.twitter.com"> <img src="../images/twitter-icon.jpg" width=30                height=60/></a></li>
+                <li><a href="https://www.twitter.com"> <img src="../images/linkedn.jpg" width=30                height=60/></a></li>
+             <li><a href="https://www.yelp.com"> <img src="../images/yelp.jpg" width=30 height=60/></a>                 </li>
+                  <li><a href="https://www.youtube.com"> <img src="../images/utube.png" width=30                height=60/></a></li>
+        </ul>
+       </div>
+
+       <div id="topnav">
+            
+                   <ul>
+                    
+                     <li><a href="../main.html">Home Page</a></li>
+                     <li><a href="../about.html">About Us</a></li>
+                     <li><a href="../activities.html">Activities</a></li>
+                     <li><a href="../contact.html">Contacts</a></li>
+         </ul>
+        </div>
+
+<div id ="slider">
+      <ul id="sliderContent">
+      <!--Duplicate this code for each image -->
+          <li class= "sliderImage">
+             <img src="../images/hk1.jpg" width="900" height="300"/>
+            <span class ="top"><strong>This is an image title</strong>
+            <br />insert the text image to the slider
+            <br />insert the text image to the slider
+            <br />insert the text image to the slider
+            <br />insert the text image to the slider
+            <br />insert the text image to the slider
+            <br />insert the text image to the slider
+            <br />insert the text image to the slider </span>
+         </li>
+               <div class="clear sliderImage"></div>
+      </ul>
+ </div>
+
+       <div id="content"><!-- TemplateBeginEditable name="content" -->
+         <h1>Welcome to my Arts Website!</h1>
+         <p>This is the first website showing how people who are in the         limited condition have overcome the situation of being inactive and       learned new skills that enable them to fight against depression        while spending their time on useful things.</p>
+         <img class ="image-frame" src="../images/flower.jpg"/> <img class ="image-frame" src="../images/bird.jpg" width=284 height=177/>
+         <p> The arts work include painting, coloring...</p>
+       <!-- TemplateEndEditable --></div>
+     
+   <div id="rightside">
+       <h2>Latest News</h2>
+       <p class="date">March 22, 2016</p>
+       <h3>Sample Headline</h3>
+       <p>This is the news about workshop</p>
+       <p class="date">March 20, 2016</p>
+       <h3>Another Headline</h3>
+       <p>Good news for all artists</p>
+       <p class="date">March 18, 2016</p>
+       <h3>Final Headline</h3>
+       <p>Feel free to visit this website  </p>
+    
+       </div>
+
+  <div id="footer">
+  <p class="footer-text">copyright 2016, All rights reserved</p>
+  </div>
+</div>
+</div>
+</body>
+</html>
