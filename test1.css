@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+/* Reset */
+html, body, article, aside, footer, header, hgroup, nav, section, h1, h2, h3, h4, h5, h6, p, blockquote, a, ol, ul, li, table, tr, th, td, tbody, tfoot, thead {
+margin: 0;
+padding: 0;
+boder: 0;
+vertical-align: baseline;
+background: transparent;
+}
+img {margin:0; padding:0; border:0; }
+table, tr, th, td, tbody, tfoot, thead {margin:0; padding:0; border:0; vertical-align:baseline; background:transparent; }
+table {border-collapse:collapse; border-spacing:0; }
+input, select, textarea, form, fieldset {margin:0 padding:0; border:0; }
+article, aside, dialog, figure, footer, header, hgroup, nav, section{display:block;}
+h1, h2, h3, h4, h5, h6, p, li, blockquote, td, th, a, caption, em,strong,strike{
+font-family:Arial, Helvetica, sans-serif;
+font-size:100%; font-weight:normal; font-style:normal; line-height:100%; text-indent: 0; text-decoration: none; text-align:left; color:#000; }
+ol,ul, {list-style: none; }
+
+/*Global */
+
+html {}
+
+body{background-image:url
+("images/ocean.jpeg");background-repeat:repeat-x-y;
+}
+.first {margin-top:20px; text-align:center; font-size:24px; font-family:Verdana, Arial, Helvetica, sans-serif; font-weight:bold; padding-bottom:3px;}
+
+h1 {color:#CC3300; border-bottom:1px #ccc solid; margin-bottom:30px ; padding_bottom:3px; }
+#content1 { background-color:
+#FFFF66
+;
+ width:670px;height:500px; float:right; margin-right:30px; border:5px #666633 solid; padding:10px;}
+.intro { padding-bottom:5px;}
+
+#nav{ background-color:#8484FF
+; float:left; width:250px; height:520px; border:5px red solid; border-radius:10px; margin-left:5px; }
+#nav ul { }
+#nav ul li{list-style-type:
+none; margin:0 auto;border-bottom:1px #ccc solid; }
+#nav ul li a{ display:block; text-decoration:none;margin-bottom:0; padding:10px; border-bottom:1px #ccc solid;}
+a:hover {background-color:
+#FF3366; border-bottom:1px #ccc solid; 
+}
+#navr   {margin-right:5px;}
+#navr ul li{list-style-type:
+none; display:inline; padding-right:15px; }
+#navr ul li a{ text-decoration:none; background-color: #00CCFF; border:2px red solid; border-radius:7px;}
+#navr ul {border-bottom:1px #ccc solid; padding: 5px; border-top:1px #ccc solid;}
+#navr ul li a:hover {background-color:#F47A00;}
+#footer{clear:both; background-color:#000000; margin-bottom:5px;}
+#footer p{color:white; margin: 20px auto;text-align:center;padding-top:10px;padding-bottom:10px;}
+#me {margin-left:10px; margin-top:10px;}
+
+table {border:2px green solid; width:400px; text-align:center;}
+tr>th {padding:10px;}
+td {padding: 5px;}
+.red {background-color:
+#FFD5BF;}
+.green{{background-color:
+#009966;}
+.blue {background-color:#B189F3;}
+.yellow{background-color:#FFFFA6;}
