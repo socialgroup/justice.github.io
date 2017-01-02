@@ -45,11 +45,11 @@ p  {color:#000; font-size:14px; line-height:150%; margin:15px 0;}
 p,  left{ margin:1.5em 1.5em 1.5em 0; padding 0; }
 p, right {margin:1.5em 1.5em 1.5em 0; padding 0; }
 a {}
-a:link { color: #00f; }
+a:link { color: blue; }
 a:visited { color: #0f0; }
 a:active { color: #000; }
 a:focus { color: #666; }
-a:hover { color: #f00; }
+a:hover { color: orange; }
 blockquote  {color:#000; font-size:12px; }
 strong  {font-weight: bold; }
 em     {font-style: italic; }
@@ -112,6 +112,7 @@ code, pre  {background-color: #ff9; padding:2px 0px; margin:4px 25px; font-famil
 #content  {width:650px;float:left; }
 
 #rightside  {width:200px; float:right;}
+#rightside a {color: blue;}
 
 #footer   {clear:both; margin-top:20px; border-top: 1px #ccc solid; padding-bottom:15px;}
 
