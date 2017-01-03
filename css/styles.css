@@ -42,8 +42,8 @@ h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {margin: 0; }
 
 /* Text Element */
 p  {color:#000; font-size:14px; line-height:150%; margin:15px 0;}
-p,  left{ margin:1.5em 1.5em 1.5em 0; padding 0; }
-p, right {margin:1.5em 1.5em 1.5em 0; padding 0; }
+p,  #left{ margin:1.5em 1.5em 1.5em 0; padding 0; }
+p, #right {margin:1.5em 1.5em 1.5em 0; padding 0; }
 a {}
 a:link { color: blue; }
 a:visited { color: #0f0; }
